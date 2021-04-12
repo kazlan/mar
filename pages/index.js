@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import React from 'react'
 import ContactForm from '../components/ContactForm'
+import Carousel1 from '../components/Carousel'
 
 export default function Home(){
 
@@ -30,6 +31,7 @@ export default function Home(){
     //
     <div>
       <Head>
+        <meta charset="UTF-8"></meta>
         <title>Óptica Mar - Torrevieja</title>
       </Head>
       {/* Nav */}
@@ -60,10 +62,17 @@ export default function Home(){
           </div>
         </nav>
       </section>
+      {/* Carousel */}
+      <section>
+        <div className="h-1/4 overflow-hidden">
+          <Carousel1
+          />
+        </div>
+      </section>
 
       {/*  hero */}
       <section className="text-gray-600 body-font">
-        <div className="container px-5 py-24 mx-auto">
+        <div className="container px-5 py-20 mx-auto">
           <div className="text-center mb-20">
             <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">TU ÓPTICA EN TORREVIEJA</h1>
             <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">En Óptica Mar buscamos ofrecer a cada persona la mejor solución para sus necesidades. Por eso, a la hora de realizar la compra o analizar tu visión, además de aconsejarte, tratamos de informarte explicándote las distintas opciones disponibles, con sus ventajas e inconvenientes.</p>
@@ -75,7 +84,7 @@ export default function Home(){
           <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
             <div className="p-4 md:w-1/4 flex flex-col text-center items-center">
               <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 mb-5 flex-shrink-0">
-                 <img src="/sunglasses1.svg" />
+                 <img src="/sunglasses1.svg" alt="calidad"/>
               </div>
               <div className="flex-grow">
                 <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Calidad</h2>
@@ -84,7 +93,7 @@ export default function Home(){
             </div>
             <div className="p-4 md:w-1/4 flex flex-col text-center items-center">
               <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 mb-5 flex-shrink-0">
-                <img src="/sunglasses2.svg" />
+                <img src="/sunglasses2.svg" alt="profesionalidad"/>
               </div>
               <div className="flex-grow">
                 <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Profesionalidad</h2>
@@ -93,7 +102,7 @@ export default function Home(){
             </div>
             <div className="p-4 md:w-1/4 flex flex-col text-center items-center">
               <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 mb-5 flex-shrink-0">
-                <img src="sunglasses3.svg" />
+                <img src="sunglasses3.svg" alt="tecnologia" />
               </div>
               <div className="flex-grow">
                 <h2 className="text-gray-900 text-lg title-font font-medium mb-3">tecnología</h2>
@@ -103,7 +112,7 @@ export default function Home(){
             {/* fourth leg */}
             <div className="p-4 md:w-1/4 flex flex-col text-center items-center">
               <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 mb-5 flex-shrink-0">
-                <img src="sunglasses4.svg" />
+                <img src="sunglasses4.svg" alt="satisfaccion" />
               </div>
               <div className="flex-grow">
                 <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Satisfacción</h2>
