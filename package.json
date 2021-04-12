@@ -9,6 +9,7 @@
     "export": "next export"
   },
   "dependencies": {
+    "@formspree/react": "^2.2.3",
     "autoprefixer": "^10.0.2",
     "next": "^10.0.4",
     "react": "16.13.1",

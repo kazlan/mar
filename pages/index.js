@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import React from 'react'
-import Form from '../components/form'
+import ContactForm from '../components/ContactForm'
 
 export default function Home(){
 
@@ -388,28 +388,28 @@ export default function Home(){
           <div className="flex flex-wrap -m-4 js-show-on-scroll">
             <div className="xl:w-1/4 md:w-1/2 p-4">
               <div className="bg-gray-100 p-6 rounded-lg">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src="/servicios1.jpg" alt="content"/>
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src="/servicios1.jpg" alt="gabinete"/>
                 <h2 className="text-lg text-blue-500 font-medium title-font mb-4">Gabinete de refracción</h2>
                 <p className="leading-relaxed text-base text-justify">Tenemos la última tecnología para realizar exámenes visuales completos con tonómetro, refractómetro y lámpara de hendidura que nos permiten buscar la mejor solución óptica en cada caso.</p>
               </div>
             </div>
             <div className="xl:w-1/4 md:w-1/2 p-4">
               <div className="bg-gray-100 p-6 rounded-lg">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src="/servicios2.jpg" alt="content"/>
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src="/servicios2.jpg" alt="contactologia"/>
                 <h2 className="text-lg text-blue-500 font-medium title-font mb-4">Contactología</h2>
                 <p className="leading-relaxed text-base text-justify">Especialistas en adaptación de todo tipo de lentes de contacto, blandas, permeables, tóricas y multifocales. Estudiaremos tu caso para ofrecerte siempre la solución más personalizada.</p>
               </div>
             </div>
             <div className="xl:w-1/4 md:w-1/2 p-4">
               <div className="bg-gray-100 p-6 rounded-lg">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src="/servicios3.jpg" alt="content"/>
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src="/servicios3.jpg" alt="taller"/>
                 <h2 className="text-lg text-blue-500 font-medium title-font mb-4">Taller de montaje</h2>
                 <p className="leading-relaxed text-base text-justify">Montajes exclusivos y personalizados realizados íntegramente en nuestro taller por profesionales cualificados, así se garantiza la perfecta adaptación y mantenimiento de nuestras gafas.</p>
               </div>
             </div>
             <div className="xl:w-1/4 md:w-1/2 p-4">
               <div className="bg-gray-100 p-6 rounded-lg">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src="/servicios4.jpg" alt="content"/>
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src="/servicios4.jpg" alt="salud ocular"/>
                 <h2 className="text-lg text-blue-500 font-medium title-font mb-4">Salud ocular</h2>
                 <p className="leading-relaxed text-base text-justify"> Deja tu visión en manos de nuestros especialistas y que no te mareen de un sitio a otro. </p>
                 <ul className="list-disc">
@@ -444,7 +444,7 @@ export default function Home(){
             </div>
           </div>
 
-          <Form />
+          <ContactForm />
 
         </div>
       </section>
