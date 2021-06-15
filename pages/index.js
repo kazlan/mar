@@ -3,6 +3,8 @@ import Image from 'next/image'
 import React from 'react'
 import ContactForm from '../components/ContactForm'
 import Carousel1 from '../components/Carousel'
+import { CookieBanner } from '@palmabit/react-cookie-law'
+
 
 export default function Home(){
 
@@ -31,10 +33,16 @@ export default function Home(){
     //
     <div>
       <Head>
-        <meta charset="UTF-8"></meta>
+        <meta CharSet="UTF-8"></meta>
         <title>Óptica Mar - Torrevieja</title>
       </Head>
       {/* Nav */}
+      <CookieBanner 
+        message="Cookie cookie blah blah blah"
+        wholeDomain={true}
+        onAccept = {()=>{}}
+        dismissOnScroll={true}
+      />
       <section className="container mx-auto px-8"> 
         <nav className="flex flex-wrap min-w-20 items-center justify-between p-4">
           <div className="lg:order-2 w-auto lg:w-1/5 lg:text-center">
