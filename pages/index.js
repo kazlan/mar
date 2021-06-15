@@ -38,7 +38,7 @@ export default function Home(){
       </Head>
       {/* Nav */}
       <CookieBanner 
-        message="Cookie cookie blah blah blah"
+        message="Esta página web utiliza cookies de terceros que son aquellas que se envían a tu ordenador o terminal desde un dominio o una página web que no es gestionada por nosotros, sino por otra entidad que trata los datos obtenidos a través de las cookies. En este caso las Cookies son utilizadas con fines estadísticos relacionados con las visitas que recibe y las páginas que se consultan, quedando aceptado su uso al navegar por ella."
         wholeDomain={true}
         onAccept = {()=>{}}
         dismissOnScroll={true}
